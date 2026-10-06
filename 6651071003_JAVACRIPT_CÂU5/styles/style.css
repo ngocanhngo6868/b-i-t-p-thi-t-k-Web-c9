@@ -1,0 +1,41 @@
+/* Lưu các file .css */
+body {
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin-left: 30px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#jsstyle {
+    padding: 6px 16px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#jsstyle:hover {
+    background-color: #219653;
+}
+
+#image-container img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}

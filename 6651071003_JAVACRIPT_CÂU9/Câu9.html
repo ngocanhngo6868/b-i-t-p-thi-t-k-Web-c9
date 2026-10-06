@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>Form Validation Exercise - Câu 9</title>
+    <!-- Liên kết đến file CSS trong thư mục Styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Personal Information</h2>
+        
+        <form id="regForm">
+            <div class="form-group">
+                <label>Enter name*:</label>
+                <input type="text" id="txtName">
+            </div>
+
+            <div class="form-group">
+                <label>Sex*:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="sex" value="Male"> Male</label>
+                    <label><input type="radio" name="sex" value="Female"> Female</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Enter email address*:</label>
+                <input type="text" id="txtEmail">
+            </div>
+
+            <div class="form-group">
+                <label>Enter birthday (MM/DD/YYYY)*:</label>
+                <input type="text" id="txtBirthday" placeholder="MM/DD/YYYY hoặc MM-DD-YYYY">
+            </div>
+
+            <div class="form-group">
+                <label>Enter street address (line 1)*:</label>
+                <input type="text" id="txtAddress">
+            </div>
+
+            <div class="form-group">
+                <label>Enter city*:</label>
+                <input type="text" id="txtCity">
+            </div>
+
+            <div class="form-group">
+                <label>Select a region*:</label>
+                <select id="selectRegion">
+                    <option value="">-- Chọn vùng --</option>
+                    <option value="Region1">Region 1</option>
+                    <option value="Region2">Region 2</option>
+                    <option value="Region3">Region 3</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Enter 5-digit ZIP code*:</label>
+                <input type="text" id="txtZip" maxlength="5">
+            </div>
+
+            <div class="btn-group">
+                <button type="button" id="btnFinished">Finished</button>
+                <button type="button" id="btnClear">Clear</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Nhúng thư viện jQuery từ thư mục Scripts -->
+    <script src="Scripts/jquery.min.js"></script>
+    <!-- Liên kết đến file JavaScript trong thư mục Scripts -->
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

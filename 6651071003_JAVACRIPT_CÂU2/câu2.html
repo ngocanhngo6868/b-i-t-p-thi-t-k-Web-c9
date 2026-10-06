@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>Return first and last name from a form with jQuery</title>
+    <!-- Liên kết đến file CSS trong thư mục Styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Lấy giá trị Họ và Tên từ Form (jQuery)</h2>
+        
+        <!-- Form với sự kiện onsubmit gọi hàm getFormvalue() -->
+        <form id="form1">
+            First name: <input type="text" name="fname" value="David"><br><br>
+            Last name: <input type="text" name="lname" value="Beckham"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <div id="result-text"></div>
+    </div>
+
+    <!-- Nhúng thư viện jQuery từ thư mục Scripts -->
+    <script src="Scripts/jquery.min.js"></script>
+    <!-- Liên kết đến file JavaScript trong thư mục Scripts -->
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

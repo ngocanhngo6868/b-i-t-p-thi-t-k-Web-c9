@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>Chương trình máy tính đơn giản - Câu 8</title>
+    <!-- Liên kết đến file CSS trong thư mục Styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Máy tính đơn giản (Câu 8)</h2>
+        
+        <div class="calc-box">
+            <div class="input-group">
+                <input type="number" id="num1" placeholder="Nhập số thứ 1">
+            </div>
+            
+            <div class="operator-group">
+                <button class="op-btn" data-op="+">+</button>
+                <button class="op-btn" data-op="-">-</button>
+                <button class="op-btn" data-op="*">*</button>
+                <button class="op-btn" data-op="/">/</button>
+            </div>
+
+            <div class="input-group">
+                <input type="number" id="num2" placeholder="Nhập số thứ 2">
+            </div>
+
+            <button id="btnCalculate" class="calc-action">Tính kết quả</button>
+
+            <div class="result-display">
+                <span>Kết quả: </span><strong id="result">0</strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nhúng thư viện jQuery từ thư mục Scripts -->
+    <script src="Scripts/jquery.min.js"></script>
+    <!-- Liên kết đến file JavaScript trong thư mục Scripts -->
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
